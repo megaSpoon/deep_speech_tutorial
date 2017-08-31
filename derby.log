@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Aug 31 15:20:41 PDT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015e-3a61-ccc7-000012471ef8 
+on database directory /home/megaspoon/Documents/work/BigDL-Tutorials/deep_speech_tutorial/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@79a48195 
+Loaded from file:/home/megaspoon/Documents/spark/spark-2.0.1-bin-hadoop2.6/jars/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_121-8u121-b13-0ubuntu1.16.04.2-b13
+user.dir=/home/megaspoon/Documents/work/BigDL-Tutorials/deep_speech_tutorial
+os.name=Linux
+os.arch=amd64
+os.version=4.8.0-36-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

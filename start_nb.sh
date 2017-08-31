@@ -12,7 +12,8 @@ ${SPARK_HOME}/bin/pyspark \
   --master local[4] \
   --driver-memory 4g \
   --properties-file ${BigDL_HOME}/conf/spark-bigdl.conf \
-  --py-files ${BigDL_HOME}/lib/bigdl-0.2.0-SNAPSHOT-jar-with-dependencies.jar,${DEEPSPEECH_API} \
-  --jars ${BigDL_HOME}/lib/bigdl-0.2.0-SNAPSHOT-jar-with-dependencies.jar,${DEEPSPEECH_API}\
-  --conf spark.driver.extraClassPath=${BigDL_HOME}/lib/bigdl-0.2.0-SNAPSHOT-jar-with-dependencies.jar:/${DEEPSPEECH_API}  \
-  --conf spark.executor.extraClassPath=${BigDL_HOME}/lib/bigdl-0.2.0-SNAPSHOT-jar-with-dependencies.jar:/${DEEPSPEECH_API} 
+  --py-files ${DEEPSPEECH_API} \
+  --jars ${DEEPSPEECH_API}\
+  --conf spark.driver.extraClassPath=${DEEPSPEECH_API}  \
+  --conf spark.executor.extraClassPath=${DEEPSPEECH_API}
+
